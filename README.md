@@ -47,14 +47,14 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-This API does not require a Query
+query = { "today": true }
 ```
 
 ###### Simple Request
 
 ```
 # Make a request to the API
-result = api.execute()
+result = api.execute(query)
 
 # Print the result
 print(result)
@@ -67,16 +67,16 @@ print(result)
   "status": "ok",
   "error": null,
   "data": {
-    "phase": "Waxing Gibbous",
-    "phaseEmoji": "🌔",
-    "waxing": true,
-    "waning": false,
-    "lunarAge": 10.101337448867854,
-    "lunarAgePercent": 0.34206354270753536,
-    "lunationNumber": 1257,
-    "lunarDistance": 60.470251812190213,
-    "nextFullMoon": "2024-09-14T00:00:00Z",
-    "lastFullMoon": "2024-07-16T00:00:00Z"
+    "phase": "Last Quarter",
+    "phaseEmoji": "🌗",
+    "waxing": false,
+    "waning": true,
+    "lunarAge": 22.917811214307449,
+    "lunarAgePercent": 0.77607027136264151,
+    "lunationNumber": 1264,
+    "lunarDistance": 62.683756716101321,
+    "nextFullMoon": "2025-03-23T00:00:00Z",
+    "lastFullMoon": "2025-01-22T00:00:00Z"
   },
   "code": 200
 }
@@ -104,7 +104,7 @@ All usage of the APIVerve website, API, and services is subject to the [APIVerve
 ## License
 Licensed under the The MIT License (MIT)
 
-Copyright (&copy;) 2024 APIVerve, and Evlar LLC
+Copyright (&copy;) 2025 APIVerve, and EvlarSoft LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
